@@ -9,25 +9,61 @@
 /* Begin PBXBuildFile section */
 		DFB0EAB827CE9B740047869D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EAB727CE9B740047869D /* AppDelegate.swift */; };
 		DFB0EABA27CE9B740047869D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EAB927CE9B740047869D /* SceneDelegate.swift */; };
-		DFB0EABC27CE9B740047869D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EABB27CE9B740047869D /* ViewController.swift */; };
+		DFB0EABC27CE9B740047869D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EABB27CE9B740047869D /* MainViewController.swift */; };
 		DFB0EABF27CE9B740047869D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB0EABD27CE9B740047869D /* Main.storyboard */; };
 		DFB0EAC127CE9B760047869D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB0EAC027CE9B760047869D /* Assets.xcassets */; };
 		DFB0EAC427CE9B760047869D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB0EAC227CE9B760047869D /* LaunchScreen.storyboard */; };
+		DFB0EACD27CE9BE50047869D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EACC27CE9BE50047869D /* Model.swift */; };
+		DFB0EAD027CEA2220047869D /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EACF27CEA2220047869D /* MainTableViewCell.swift */; };
+		DFB0EAF227D205A90047869D /* DataBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EAF127D205A90047869D /* DataBaseViewController.swift */; };
+		DFB0EAF427D2090F0047869D /* DataBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EAF327D2090F0047869D /* DataBaseTableViewCell.swift */; };
+		DFB0EAF627D2242D0047869D /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EAF527D2242D0047869D /* UIButton+Extension.swift */; };
+		DFB0EAFC27D609790047869D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EAFB27D609790047869D /* MainViewModel.swift */; };
+		DFB0EAFE27D60E660047869D /* DataBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EAFD27D60E660047869D /* DataBaseViewModel.swift */; };
+		DFB0EB0627D7654A0047869D /* DataBaseViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EB0527D7654A0047869D /* DataBaseViewModelTests.swift */; };
+		DFB0EB0D27D7A06A0047869D /* MainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EB0C27D7A06A0047869D /* MainViewModelTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB0EB0727D7654A0047869D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB0EAAC27CE9B740047869D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB0EAB327CE9B740047869D;
+			remoteInfo = GreyCard;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DFB0EAB427CE9B740047869D /* GreyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB0EAB727CE9B740047869D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFB0EAB927CE9B740047869D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFB0EABB27CE9B740047869D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFB0EABB27CE9B740047869D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DFB0EABE27CE9B740047869D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFB0EAC027CE9B760047869D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB0EAC327CE9B760047869D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFB0EAC527CE9B760047869D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB0EACC27CE9BE50047869D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DFB0EACF27CEA2220047869D /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		DFB0EAF127D205A90047869D /* DataBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseViewController.swift; sourceTree = "<group>"; };
+		DFB0EAF327D2090F0047869D /* DataBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseTableViewCell.swift; sourceTree = "<group>"; };
+		DFB0EAF527D2242D0047869D /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		DFB0EAFB27D609790047869D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DFB0EAFD27D60E660047869D /* DataBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseViewModel.swift; sourceTree = "<group>"; };
+		DFB0EB0327D7654A0047869D /* GreyCardUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreyCardUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB0EB0527D7654A0047869D /* DataBaseViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseViewModelTests.swift; sourceTree = "<group>"; };
+		DFB0EB0C27D7A06A0047869D /* MainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DFB0EAB127CE9B740047869D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB0EB0027D7654A0047869D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				DFB0EAB627CE9B740047869D /* GreyCard */,
+				DFB0EB0427D7654A0047869D /* GreyCardUnitTests */,
 				DFB0EAB527CE9B740047869D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				DFB0EAB427CE9B740047869D /* GreyCard.app */,
+				DFB0EB0327D7654A0047869D /* GreyCardUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +94,63 @@
 		DFB0EAB627CE9B740047869D /* GreyCard */ = {
 			isa = PBXGroup;
 			children = (
-				DFB0EAB727CE9B740047869D /* AppDelegate.swift */,
-				DFB0EAB927CE9B740047869D /* SceneDelegate.swift */,
-				DFB0EABB27CE9B740047869D /* ViewController.swift */,
+				DFB0EACB27CE9BD30047869D /* Model */,
+				DFB0EAF827D600870047869D /* ViewModel */,
+				DFB0EACE27CEA1EE0047869D /* Views */,
+				DFB0EAF727D600570047869D /* ViewControllers */,
 				DFB0EABD27CE9B740047869D /* Main.storyboard */,
 				DFB0EAC027CE9B760047869D /* Assets.xcassets */,
 				DFB0EAC227CE9B760047869D /* LaunchScreen.storyboard */,
 				DFB0EAC527CE9B760047869D /* Info.plist */,
+				DFB0EAB727CE9B740047869D /* AppDelegate.swift */,
+				DFB0EAB927CE9B740047869D /* SceneDelegate.swift */,
 			);
 			path = GreyCard;
+			sourceTree = "<group>";
+		};
+		DFB0EACB27CE9BD30047869D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0EACC27CE9BE50047869D /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFB0EACE27CEA1EE0047869D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0EACF27CEA2220047869D /* MainTableViewCell.swift */,
+				DFB0EAF327D2090F0047869D /* DataBaseTableViewCell.swift */,
+				DFB0EAF527D2242D0047869D /* UIButton+Extension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFB0EAF727D600570047869D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0EABB27CE9B740047869D /* MainViewController.swift */,
+				DFB0EAF127D205A90047869D /* DataBaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DFB0EAF827D600870047869D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0EAFB27D609790047869D /* MainViewModel.swift */,
+				DFB0EAFD27D60E660047869D /* DataBaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFB0EB0427D7654A0047869D /* GreyCardUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0EB0C27D7A06A0047869D /* MainViewModelTests.swift */,
+				DFB0EB0527D7654A0047869D /* DataBaseViewModelTests.swift */,
+			);
+			path = GreyCardUnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +173,24 @@
 			productReference = DFB0EAB427CE9B740047869D /* GreyCard.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DFB0EB0227D7654A0047869D /* GreyCardUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB0EB0927D7654A0047869D /* Build configuration list for PBXNativeTarget "GreyCardUnitTests" */;
+			buildPhases = (
+				DFB0EAFF27D7654A0047869D /* Sources */,
+				DFB0EB0027D7654A0047869D /* Frameworks */,
+				DFB0EB0127D7654A0047869D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB0EB0827D7654A0047869D /* PBXTargetDependency */,
+			);
+			name = GreyCardUnitTests;
+			productName = GreyCardUnitTests;
+			productReference = DFB0EB0327D7654A0047869D /* GreyCardUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +203,10 @@
 				TargetAttributes = {
 					DFB0EAB327CE9B740047869D = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					DFB0EB0227D7654A0047869D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DFB0EAB327CE9B740047869D;
 					};
 				};
 			};
@@ -116,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				DFB0EAB327CE9B740047869D /* GreyCard */,
+				DFB0EB0227D7654A0047869D /* GreyCardUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFB0EB0127D7654A0047869D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +254,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFB0EABC27CE9B740047869D /* ViewController.swift in Sources */,
+				DFB0EABC27CE9B740047869D /* MainViewController.swift in Sources */,
 				DFB0EAB827CE9B740047869D /* AppDelegate.swift in Sources */,
 				DFB0EABA27CE9B740047869D /* SceneDelegate.swift in Sources */,
+				DFB0EAF227D205A90047869D /* DataBaseViewController.swift in Sources */,
+				DFB0EACD27CE9BE50047869D /* Model.swift in Sources */,
+				DFB0EAF627D2242D0047869D /* UIButton+Extension.swift in Sources */,
+				DFB0EAF427D2090F0047869D /* DataBaseTableViewCell.swift in Sources */,
+				DFB0EAD027CEA2220047869D /* MainTableViewCell.swift in Sources */,
+				DFB0EAFC27D609790047869D /* MainViewModel.swift in Sources */,
+				DFB0EAFE27D60E660047869D /* DataBaseViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB0EAFF27D7654A0047869D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB0EB0D27D7A06A0047869D /* MainViewModelTests.swift in Sources */,
+				DFB0EB0627D7654A0047869D /* DataBaseViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB0EB0827D7654A0047869D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB0EAB327CE9B740047869D /* GreyCard */;
+			targetProxy = DFB0EB0727D7654A0047869D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DFB0EABD27CE9B740047869D /* Main.storyboard */ = {
@@ -217,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -297,6 +437,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +466,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +477,54 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFB0EB0A27D7654A0047869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TQQSBJ45Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pahodnik.GreyCardUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreyCard.app/GreyCard";
+			};
+			name = Debug;
+		};
+		DFB0EB0B27D7654A0047869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TQQSBJ45Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pahodnik.GreyCardUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreyCard.app/GreyCard";
 			};
 			name = Release;
 		};
@@ -355,6 +545,15 @@
 			buildConfigurations = (
 				DFB0EAC927CE9B760047869D /* Debug */,
 				DFB0EACA27CE9B760047869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB0EB0927D7654A0047869D /* Build configuration list for PBXNativeTarget "GreyCardUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB0EB0A27D7654A0047869D /* Debug */,
+				DFB0EB0B27D7654A0047869D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
